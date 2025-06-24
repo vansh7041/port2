@@ -5,7 +5,7 @@ const S2 = () => {
     <>
       <div className="text-white font-bold  max-w-4xl mx-auto">
         <h1 className="text-black font-extrabold text-3xl mb-4 text-center sm:text-left">
-          Clone Website
+          Food Cafe 
         </h1>
 
         <p className="text-white text-base sm:text-lg leading-relaxed">
