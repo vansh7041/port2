@@ -3,7 +3,7 @@ import React from 'react'
 const S1 = () => {
   return (
     <>
-      <div className="text-white font-bold px-6 py-10 max-w-4xl mx-auto">
+      <div className="text-white font-bold  max-w-4xl mx-auto">
         <h1 className="text-black font-extrabold text-3xl mb-4 text-center sm:text-left">
           Clone Website
         </h1>
