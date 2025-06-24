@@ -8,11 +8,11 @@ import { ReactTyped } from 'react-typed';
 const Home = () => {
   return (
     <>
-    <div id='home' className='flex'>
-        <div className='text-white mt-64 ml-32 font-bold'>
-            <h2 className='text-3xl'>Hello, It's Me</h2>
-            <h1 className='text-5xl'>Vansh Barot</h1>
-            <h2 className='text-3xl'>And I Am A <span className='text-blue-500'>
+    <div id='home' className='flex flex-col lg:flex-row items-center justify-center px-6 py-10 gap-24'>
+        <div className='text-white mt-64 ml-5 font-bold'>
+            <h2 className='text-3xl md:text-3xl'>Hello, It's Me</h2>
+            <h1 className='text-5xl  md:text-5xl'>Vansh Barot</h1>
+            <h2 className='text-3xl  md:text-3xl'>And I Am A <span className='text-blue-500'>
     <span id="typed-element">
       <ReactTyped
         strings={[
@@ -27,13 +27,13 @@ const Home = () => {
       />
     </span>
   </span></h2><br />
-            <h3>As a highly motivated and detail-oriented Computer Science graduate,<br />
+            <h3 className='text-sm md:text-base px-2 md:px-0 leading-relaxed'>As a highly motivated and detail-oriented Computer Science graduate,<br />
 I possess a solid foundation in programming, algorithms, and software
 development. <br /> My proficiency in multiple programming languages,
 including Java, C, and JavaScript, <br />is complemented by hands-on
 experience in both front-end and back-end development. <br />I am well versed in web development frameworks, database management, and
 cloud technologies.</h3><br />
-<div className='flex gap-5'>
+<div className='flex justify-center lg:justify-start gap-5 flex-wrap'>
     <div className='bg-white text-black h-10 w-10  rounded-full p-2 hover:bg-blue-500 hover:text-white'>
        <a href="https://www.linkedin.com/in/vansh-barot-60497b30a"><FaLinkedinIn className='text-2xl' /> </a> 
     </div>
@@ -49,7 +49,7 @@ cloud technologies.</h3><br />
 
         </div>
 
-        <div className='h-96 w-96 mt-48 ml-56 rounded-full border-8 border-t-blue-500 border-b-blue-500 border-l-fuchsia-700 border-r-fuchsia-700 shadow-[0_0_30px_20px_rgba(59,130,246,1)]'>
+        <div className='h-64 w-64 md:h-80 md:w-80 mt-42 lg:h-96 lg:w-96 rounded-full border-8 border-t-blue-500 border-b-blue-500 border-l-fuchsia-700 border-r-fuchsia-700 shadow-[0_0_30px_20px_rgba(59,130,246,1)]'>
             <img className='rounded-full' src="pic.jpeg" alt="" />
         </div>
     </div>
